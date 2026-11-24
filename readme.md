@@ -8,7 +8,7 @@ using this:
 
 you should change values to your likings like
 
-´´´
+```js
 "DefaultSearchProviderName": "Brave Search",
 "DefaultSearchProviderSearchURL": "https://search.brave.com/search?q={searchTerms}",
 "DnsOverHttpsMode": "secure",
