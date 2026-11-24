@@ -1,10 +1,19 @@
 ![Hello World](brave-light.png)
 
 # Brave-Browser 
-## skimmed for faster browsing
+## skimmed for faster browsing using group policies
 
-i just took lots of overlapping files and combined one to fule them all
+i just took lots of overlapping files and combined one to fule them all into (GroupPolicy.json)
 using this:
+
+    you should change values to your likings like
+    ´´´json
+    DefaultSearchProviderName": "Brave Search",
+    "DefaultSearchProviderSearchURL": "https://search.brave.com/search?q={searchTerms}",
+    "DnsOverHttpsMode": "secure",
+    "DnsOverHttpsTemplates": "put-your-DOH address here",
+    ```
+
 
 ```sh
 sudo mkdir -p /etc/brave/policies/managed
